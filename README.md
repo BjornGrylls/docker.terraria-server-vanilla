@@ -30,5 +30,5 @@ docker attach Terraria-Server
 
 ## Detach from server console
 ```
-crtl+p
+crtl+p crtl+q
 ```
