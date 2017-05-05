@@ -4,7 +4,7 @@ MAINTAINER TopCat <topmailcat@googlemail.com>
 
 RUN apt-get update && apt-get install -y zip wget && apt-get clean 
 
-ENV SERVER_VERSION=1333 \
+ENV SERVER_VERSION=1353 \
   SERVER_ROOT=/opt/terraria \
   LOG_ROOT=/var/log/terraria \
   SERVER_ZIP=$SERVER_ROOT/terraria-server.zip
