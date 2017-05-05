@@ -1,4 +1,4 @@
-# Terraria Server V1.3.3.3
+# Terraria Server V1.3.5.3
 ![Terraria Logo](https://hydra-media.cursecdn.com/terraria.gamepedia.com/7/7a/Terraria-official-website-2014.png "Terraria Logo")
 
 ## Vanilla Dedicated Linux Server
