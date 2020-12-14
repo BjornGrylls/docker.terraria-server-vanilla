@@ -4,13 +4,13 @@ MAINTAINER TopCat <topmailcat@googlemail.com>
 
 RUN apt-get update && apt-get install -y zip wget && apt-get clean 
 
-ENV SERVER_VERSION=1405 \
+ENV SERVER_VERSION=1412 \
   SERVER_ROOT=/opt/terraria \
   LOG_ROOT=/var/log/terraria \
   SERVER_ZIP=$SERVER_ROOT/terraria-server.zip
 
 RUN mkdir -p $SERVER_ROOT \
-  && wget -q https://www.terraria.org/system/dedicated_servers/archives/000/000/039/original/terraria-server-$SERVER_VERSION.zip -O $SERVER_ZIP \
+  && wget -q https://www.terraria.org/system/dedicated_servers/archives/000/000/042/original/terraria-server-$SERVER_VERSION.zip -O $SERVER_ZIP \
   && mkdir -p $LOG_ROOT \
   && unzip $SERVER_ZIP $SERVER_VERSION/Linux/* -d $SERVER_ROOT \ 
   && rm $SERVER_ZIP \
