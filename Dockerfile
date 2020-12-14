@@ -1,6 +1,6 @@
 FROM debian
 
-MAINTAINER TopCat <topmailcat@googlemail.com>
+LABEL maintainer="TopCat <topmailcat@googlemail.com>"
 
 RUN apt-get update && apt-get install -y zip wget && apt-get clean 
 
